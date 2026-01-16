@@ -1,0 +1,10 @@
+Options -MultiViews
+RewriteEngine On
+
+# Handle Front Controller (index.php) for ALL requests
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+
+# If you want to allow direct access to assets (optional, but recommended)
+# (This is already covered above, but explicit is safe)

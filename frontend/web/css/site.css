@@ -1,0 +1,268 @@
+html, body {
+    height: 100%;
+    font-family: "Garamond" !important;
+    font-size: 20px !important;
+}
+
+main {
+    min-height: 100%;
+}
+
+main > .container {
+    overflow:auto;
+    padding-bottom:60px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+    position: relative;
+    margin-top: -60px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+} 
+
+main > .container, main > .container-fluid
+{
+    padding: 50px 15px 20px;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    font-size: .9em;
+    height: 60px;
+}
+
+.footer > .container, .footer > .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    content: '';
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 2px 4px;
+    background: transparent;
+}
+
+a.asc:after {
+    border-bottom: solid 7px #212529;
+    border-top-width: 0;
+}
+
+a.desc:after {
+    border-top: solid 7px #212529;
+    border-bottom-width: 0;
+}
+
+.grid-view th,
+.grid-view td:last-child {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.navbar form > button.logout {
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width:767px) {
+    .navbar form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+.navbar form > button.logout:focus,
+.navbar form > button.logout:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar form > button.logout:focus {
+    outline: none;
+}
+
+/* style breadcrumb widget as in previous bootstrap versions */
+.breadcrumb {
+    background-color: var(--bs-gray-200);
+    border-radius: .25rem;
+    padding: .75rem 1rem;
+}
+
+.breadcrumb-item > a
+{
+    text-decoration: none;
+}
+
+.page-header h1 {
+    position: absolute;
+    top: 67px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.page-header {
+    height: 200px;
+    margin-top: 0px;
+    background-size: cover;
+    background-image: url(Billboard1_hmmo90.jpg);
+}
+
+.fixed-top {
+    position: sticky !important;
+    top: 0 !important;
+}
+
+.flex-shrink-0 {
+    background-color: #967c6b;
+    display: flex;
+}
+
+main > .container {
+    background-color: #fff;
+}
+
+.cart {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.cart:hover {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.btn.active {
+    color: #fff !important;
+}
+
+.lang {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.btn-primary {
+    background-color: #714423 !important; 
+    border-color: #714423 !important;
+}
+
+a {
+    color: #714423;
+}
+
+a:hover {
+    color: #714423;
+}
+
+.text-primary {
+    color: #714423 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.cart.active {
+    color: #fff !important;
+}
+
+.dropdown-item:active {
+    background-color: #714423 !important;
+}
+
+.dropdown-item.active {
+    background-color: #714423 !important;
+}
+
+.table-borderless { 
+    border-width: 0 !important;
+} 
+
+#submitOrder {
+    margin-top: 15px;
+}
+
+.bg-primary {
+    background-color: #714423 !important;
+}
+
+.fancybox {display: block !important;}
+
+.fancybox__container {
+    --fancybox-bg: rgba(84, 65, 49, 0.74) !important;
+}
+
+.list-group-item.active {
+    background-color: #714423 !important;
+}
+
+@media (min-width: 576px) {
+    #search, .lang {
+      max-width: 540px;
+      margin: auto;
+    }
+  }
+  @media (min-width: 768px) {
+    #search, .lang {
+      max-width: 720px;
+      margin: auto;
+    }
+  }
+  @media (min-width: 992px) {
+    #search, .lang {
+      max-width: 960px;
+      margin: auto;
+    }
+  }
+  @media (min-width: 1200px) {
+    #search, .lang {
+      max-width: 1140px;
+      margin: auto;
+    }
+  }
+  @media (min-width: 1400px) {
+    #search, .lang {
+      max-width: 1320px;
+    }
+  }
+
+  div#search > form {
+    float: right;
+    margin-top: 80px;
+  }
+
+  .post-header {
+    text-decoration: none !important;
+  }

@@ -1,0 +1,1 @@
+<p>Paldies, Jūsu pasūtījums ir saņemts! Esam nosūtījuši Jums apstiprinājuma e-pastu ar norādēm par to, kā Jums rīkoties tālāk.</p>
