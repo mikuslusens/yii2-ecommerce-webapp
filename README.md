@@ -33,8 +33,8 @@ You’ll get:
 ### 1) Clone the repository
 
 ```bash
-git clone <REPO_URL_HERE>
-cd <REPO_FOLDER_HERE>
+git clone https://github.com/mikuslusens/yii2-ecommerce-webapp.git
+cd yii2-ecommerce-webapp
 ```
 
 ### 2) Start the containers
